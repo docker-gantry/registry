@@ -1,0 +1,2 @@
+# registry
+Gantry command registry
