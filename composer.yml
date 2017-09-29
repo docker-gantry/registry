@@ -1,0 +1,4 @@
+name: PHP Composer
+image: composer:latest
+workdir: /app
+volume: $PWD:/app
