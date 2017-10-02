@@ -1,0 +1,5 @@
+name: Node Package Manager
+image: node:latest
+workdir: /app
+volumes:
+  - $PWD:/app
