@@ -1,4 +1,9 @@
 name: PHP Composer
 image: composer:latest
 workdir: /app
-volume: $PWD:/app
+volumes:
+  - $PWD:/app
+  - $HOME/.ssh:/root/.ssh
+  - $SSH_AUTH_SOCK:/ssh-agent
+environment:
+  - SSH_AUTH_SOCK=/ssh-agent
