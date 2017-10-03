@@ -1,0 +1,5 @@
+name: S3 Command line
+image: schickling/s3cmd:latest
+executable: true
+volumes:
+  - $HOME/.s3cfg:/root/.s3cfg
