@@ -1,0 +1,2 @@
+name: Siege HTTP Load Testing
+image: yokogawa/siege:latest
