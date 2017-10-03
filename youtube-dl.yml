@@ -1,0 +1,6 @@
+name: YouTube Downloader
+image: jbergknoff/youtube-dl:latest
+executable: true
+workdir: /src
+volumes:
+  - $PWD:/src
