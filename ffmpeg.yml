@@ -1,0 +1,5 @@
+name: FFmpeg
+image: jrottenberg/ffmpeg:latest
+executable: true
+volumes:
+  - $PWD:/src
